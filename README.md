@@ -11,10 +11,9 @@ Welcome to my Data Engineering 3rd Semester Portfolio Repository! This repositor
 ## About
 In this repository, you'll find a collection of projects and assessments that demonstrate your proficiency in various aspects of data engineering. Each project is designed to challenge and enhance your skills, covering topics such as data pipelines, ETL processes, Cloud, big data technologies, and more.
 
+
 ## Projects
 - **Project 1**: [Project Name](link_to_project_repo) - Brief description of the project.
-- **Project 2**: [Project Name](link_to_project_repo) - Brief description of the project.
-- **Project 3**: [Project Name](link_to_project_repo) - Brief description of the project.
 
 
 ## Contributing
@@ -22,5 +21,5 @@ Collaboration is key to success in data engineering. If you have any suggestions
 
 ## Contact
 If you have any questions, feedback, or concerns, don't hesitate to reach out:
-- **Instructor**: [Emmanuel Ogunwede](emmanuel.o@altschoolafrica.com)
-- **Student**: [Victor Ezeh](ezeh_victor@yahoo.com)
+- **Instructor**: [Emmanuel Ogunwede](https://github.com/JesuFemi-O)
+- **Student**: [Victor Ezeh](https://linktr.ee/victorcezeh)
