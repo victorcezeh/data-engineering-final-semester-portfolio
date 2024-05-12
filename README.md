@@ -9,7 +9,7 @@ Welcome to my Data Engineering 3rd Semester Portfolio Repository! This repositor
 4. [Contact](#contact)
 
 ## About
-In this repository, you'll find a collection of projects and assessments that demonstrate your proficiency in various aspects of data engineering. Each project is designed to challenge and enhance your skills, covering topics such as data pipelines, ETL processes, Cloud, big data technologies, and more.
+In this repository, you'll find a collection of projects and assessments that demonstrate my proficiency in various aspects of data engineering. Each project is designed to challenge and enhance my skills, covering topics such as data pipelines, ETL processes, Cloud, big data technologies, and more.
 
 
 ## Projects
