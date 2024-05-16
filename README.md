@@ -1,6 +1,6 @@
 # Data Engineering Semester Portfolio
 
-Welcome to my Data Engineering 3rd Semester Portfolio Repository! This repository serves as a centralized platform for managing and showcasing my data engineering projects throughout the semester.
+Welcome to my Data Engineering final Semester Portfolio Repository! This repository serves as a centralized platform for managing and showcasing my data engineering projects throughout the semester.
 
 ## Table of Contents
 1. [About](#about)
