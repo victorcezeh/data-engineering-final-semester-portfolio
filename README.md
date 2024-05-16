@@ -1,4 +1,4 @@
-# Data Engineering Semester Portfolio
+# Data Engineering Final Semester Portfolio
 
 Welcome to my Data Engineering final Semester Portfolio Repository! This repository serves as a centralized platform for managing and showcasing my data engineering projects throughout the semester.
 
