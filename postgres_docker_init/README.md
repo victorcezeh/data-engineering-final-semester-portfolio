@@ -43,7 +43,7 @@ postgres_docker_init/
 
 ## Project Description
 
-In this assessment, you will create a Postgres server leveraging Docker and Docker Compose. The goal is to test your ability to successfully set up, load data, and interact with Postgres from Python.
+In this assessment, I created a Postgres server leveraging Docker and Docker Compose. The goal is to test my ability to successfully set up, load data, and interact with Postgres from Python.
 
 ### Features
 
