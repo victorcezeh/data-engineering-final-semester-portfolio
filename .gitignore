@@ -1,2 +1,4 @@
 venv
 pg_data
+.env
+__pycache__

@@ -5,3 +5,5 @@ mypy-extensions==1.0.0
 packaging==24.0
 pathspec==0.12.1
 platformdirs==4.2.2
+psycopg2==2.9.9
+python-dotenv==1.0.1
