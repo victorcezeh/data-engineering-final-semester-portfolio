@@ -14,7 +14,9 @@ This project sets up a basic Postgres infrastructure using Docker and Docker Com
   - [Windows](#windows)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Acknowledgement](#acknowledgement)
+- [Environment Variables](#environment-variables)
+- [Troubleshooting](#troubleshooting)
+- [Acknowledgements](#acknowledgements)
 
 ## Project Structure
 
@@ -43,7 +45,7 @@ postgres_docker_init/
 
 ## Project Description
 
-In this assessment, you will create a Postgres server leveraging Docker and Docker Compose. The goal is to test your ability to successfully set up, load data, and interact with Postgres from Python.
+In this project, I demonstrated my ability to set up a Postgres server leveraging Docker and Docker Compose. The objective was to test my skills in setting up, loading data, and interacting with Postgres from Python.
 
 ### Features
 
@@ -152,7 +154,25 @@ POSTGRES_HOST=localhost
 
 This configuration will be used by the `db_manager.py` script to connect to the Postgres database.
 
+## Troubleshooting
 
-## Acknowledgement
+- **Docker Compose Issues**:
+  - Ensure Docker is running and properly installed.
+  - Verify that the Docker Compose file is correctly formatted.
+  - Check for any port conflicts and adjust the `docker-compose.yml` file as needed.
+
+- **Database Connection Problems**:
+  - Ensure that the environment variables are correctly set up.
+  - Confirm that the Postgres container is running and accessible.
+  - Check network settings and firewall configurations.
+
+- **Python Script Errors**:
+  - Ensure all required Python packages are installed:
+    ```bash
+    pip install -r requirements.txt
+    ```
+  - Verify the database connection settings in `db_manager.py`.
+
+## Acknowledgements
 
 I wish to express my sincere appreciation to [Altschool Africa](https://altschoolafrica.com/) and [jesufemi-o](https://github.com/JesuFemi-O) for empowering me with the expertise essential for executing this project.
