@@ -45,9 +45,7 @@ postgres_docker_init/
 
 ## Project Description
 
-
 In this project, I demonstrated my ability to set up a Postgres server leveraging Docker and Docker Compose. The objective was to test my skills in setting up, loading data, and interacting with Postgres from Python.
-
 
 ### Features
 
