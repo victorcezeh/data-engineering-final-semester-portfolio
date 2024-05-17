@@ -13,7 +13,7 @@ In this repository, you'll find a collection of projects and assessments that de
 
 
 ## Projects
-- **Project 1**: [Project Name](link_to_project_repo) - Brief description of the project.
+- **Project 1**: [postgres_docker_init](https://github.com/victorcezeh/data-engineering-final-semester-portfolio/tree/main/postgres_docker_init) - In this project, I showcased my expertise in configuring Docker Compose to facilitate seamless interaction between a Python application and a PostgreSQL database.
 
 
 ## Contributing
