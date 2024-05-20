@@ -2,3 +2,4 @@ venv
 pg_data
 .env
 __pycache__
+pyvenv.cfg
