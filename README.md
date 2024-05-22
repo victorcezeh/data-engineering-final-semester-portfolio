@@ -1,3 +1,8 @@
+
+![final-semester](https://github.com/victorcezeh/data-engineering-final-semester-portfolio/assets/129629266/960258a4-0d89-40b1-9d0e-7cad6cf65fb3)
+
+
+
 # Data Engineering Final Semester Portfolio
 
 Welcome to my Data Engineering final Semester Portfolio Repository! This repository serves as a centralized platform for managing and showcasing my data engineering projects throughout the semester.
