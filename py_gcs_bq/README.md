@@ -1,4 +1,5 @@
-![this-is-the-cloud](https://github.com/victorcezeh/test-run/assets/129629266/04d862f6-bc6c-40e9-b015-b1455a9bb1ad)
+![this-is-the-cloud](https://github.com/victorcezeh/data-engineering-final-semester-portfolio/assets/129629266/38d4437e-e9b8-4479-92aa-7695047db583)
+
 
 
 # Google Cloud Storage (GCS) and BigQuery (BQ) Data Pipeline
