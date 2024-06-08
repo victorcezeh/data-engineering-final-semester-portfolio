@@ -1,0 +1,92 @@
+[
+    {
+        "name": "RowID",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "OrderID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "OrderDate",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "ShipDate",
+        "type": "DATE",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "ShipMode",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CustomerID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "CustomerName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Segment",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Country",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "City",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "State",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "PostalCode",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Region",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "ProductID",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Category",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "SubCategory",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "ProductName",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "Sales",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
