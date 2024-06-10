@@ -21,18 +21,17 @@ This repository contains scripts to set up a data pipeline for loading data from
 ## File Structure
 
 ```
-├── README.md
-├── load_api_to_gcs_bq.py
-├── load_csv_to_bq.py
-├── config.py
-├── .env
-├── .env.example
-├── .gitignore
-├── requirements.txt
-├── LICENSE
-└── schema
+data
+    └── klitch_sales_dataset.csv
+schemas
     ├── api_schema.json
     └── klitch_sales_dataset_schema.json
+.env.example
+LICENSE
+README.md
+config.py
+load_api_to_gcs_bq.py
+load_csv_to_bq.py
 ```
 
 - `load_api_to_gcs_bq.py`: Main script to fetch data from API, upload to GCS, and load into BQ.
