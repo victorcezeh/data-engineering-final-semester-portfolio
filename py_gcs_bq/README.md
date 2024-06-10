@@ -32,7 +32,7 @@ This repository contains scripts to set up a data pipeline for loading data from
 ├── LICENSE
 └── schema
     ├── api_schema.json
-    └── csv_schema.json
+    └── klitch_sales_dataset_schema.json
 ```
 
 - `load_api_to_gcs_bq.py`: Main script to fetch data from API, upload to GCS, and load into BQ.
