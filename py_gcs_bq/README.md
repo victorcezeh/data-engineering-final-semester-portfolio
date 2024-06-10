@@ -34,15 +34,25 @@ load_api_to_gcs_bq.py
 load_csv_to_bq.py
 ```
 
-- `load_api_to_gcs_bq.py`: Main script to fetch data from API, upload to GCS, and load into BQ.
-- `load_csv_to_bq.py`: Script to load CSV files directly into BigQuery tables.
-- `config.py`: Configuration file to manage project constants.
-- `.env`: File to store environment variables (not included in version control).
+- `data/`: Directory containing raw data file.
+  - `klitch_sales_dataset.csv`: CSV file with sales data to be loaded into BigQuery.
+
+- `schemas/`: Directory containing JSON schema files for BigQuery tables.
+  - `api_schema.json`: Schema for the API data table in BigQuery.
+  - `klitch_sales_dataset_schema.json`: Schema for the sales data table in BigQuery.
+
 - `.env.example`: Example template for environment variables. Rename to `.env` and fill in your credentials.
-- `.gitignore`: File to specify which files and directories to ignore in version control.
-- `requirements.txt`: List of dependencies required by the project.
+
 - `LICENSE`: File containing the license under which the project is distributed.
-- `schema/`: Directory containing JSON schema files for BQ tables.
+
+- `README.md`: Project documentation file with overview, setup instructions, and usage guidelines.
+
+- `config.py`: Configuration file to manage project constants.
+
+- `load_api_to_gcs_bq.py`: Main script to fetch data from API, upload to Google Cloud Storage (GCS), and load into BigQuery.
+
+- `load_csv_to_bq.py`: Script to load CSV files (like `klitch_sales_dataset.csv`) directly into BigQuery tables.
+
 
 ## Features
 
