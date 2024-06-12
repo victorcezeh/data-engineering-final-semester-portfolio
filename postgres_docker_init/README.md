@@ -20,28 +20,27 @@ This project sets up a basic Postgres infrastructure using Docker and Docker Com
 
 ## Project Structure
 
+
 ```
 postgres_docker_init/
-│
-├── README.md
-│
-├── data/
+├── data
 │   └── customer.csv
-│
-├── infrastructure_scripts/
+├── infrastructure_scripts
 │   └── init.sql
-│
-└── src/
-    ├── db_manager.py
-    └── main.py
+├── src
+│   ├── db_manager.py
+│   └── main.py
+├── README.md
+└── docker-compose.yml
 ```
 
-- **README.md**: Documentation for the project.
-- **data/**: Contains the `customer.csv` data file.
-- **infrastructure_scripts/**: Includes the SQL initialization script `init.sql`.
-- **src/**: Contains Python scripts:
-  - `db_manager.py`: Connects to the Postgres database.
-  - `main.py`: Entry point for executing queries and interacting with the database.
+* **data/**: Contains the `customer.csv` data file.
+* **infrastructure_scripts/**: Includes the SQL initialization script `init.sql`.
+* **src/**: Contains Python scripts:
+   * `db_manager.py`: Connects to the Postgres database.
+   * `main.py`: Entry point for executing queries and interacting with the database.
+* **README.md**: Documentation for the project.
+* **docker-compose.yml**: Configuration file for running the application using Docker Compose.
 
 ## Project Description
 
