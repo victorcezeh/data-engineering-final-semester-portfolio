@@ -3,3 +3,7 @@ pg_data
 .env
 __pycache__
 pyvenv.cfg
+logs
+plugins
+postgres-db-volume
+airflow.db
