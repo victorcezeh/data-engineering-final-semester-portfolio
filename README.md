@@ -19,7 +19,7 @@ In this repository, you'll find a collection of projects and assessments that de
 
 ## Projects
 - **Project 1**: [postgres_docker_init](https://github.com/victorcezeh/data-engineering-final-semester-portfolio/tree/main/postgres_docker_init) - This project sets up and tests PostgreSQL infrastructure using Docker and Docker Compose. It involves creating a Dockerized PostgreSQL server, loading data from a CSV file, and writing Python scripts to interact with the database. Includes detailed README documentation.
-- **Project 2**: [py_gcs_bq](https://github.com/victorcezeh/data-engineering-final-semester-portfolio/blob/main/py_gcs_bq/config.py) - This Python project enables seamless interaction with Google Cloud Storage (GCS) and BigQuery. It supports loading CSV files from a local machine into BigQuery and fetching API data to store in GCS, which is then loaded into BigQuery. The code is designed to be idempotent, reusable, and well-documented, with secrets managed via a .env file and constants through config.py. Includes detailed README documentation.
+- **Project 2**: [py_gcs_bq](https://github.com/victorcezeh/data-engineering-final-semester-portfolio/tree/main/py_gcs_bq) - This Python project enables seamless interaction with Google Cloud Storage (GCS) and BigQuery. It supports loading CSV files from a local machine into BigQuery and fetching API data to store in GCS, which is then loaded into BigQuery. The code is designed to be idempotent, reusable, and well-documented, with secrets managed via a .env file and constants through config.py. Includes detailed README documentation.
 
 
 ## Contributing
