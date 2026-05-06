@@ -1,0 +1,55 @@
+[
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "name",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "genre",
+      "type": "STRING",
+      "mode": "REPEATED"
+    },
+    {
+      "name": "developers",
+      "type": "STRING",
+      "mode": "REPEATED"
+    },
+    {
+      "name": "publishers",
+      "type": "STRING",
+      "mode": "REPEATED"
+    },
+    {
+      "name": "releaseDates",
+      "type": "RECORD",
+      "mode": "NULLABLE",
+      "fields": [
+        {
+          "name": "Japan",
+          "type": "STRING",
+          "mode": "NULLABLE"
+        },
+        {
+          "name": "NorthAmerica",
+          "type": "DATE",
+          "mode": "NULLABLE"
+        },
+        {
+          "name": "Europe",
+          "type": "DATE",
+          "mode": "NULLABLE"
+        },
+        {
+          "name": "Australia",
+          "type": "DATE",
+          "mode": "NULLABLE"
+        }
+      ]
+    }
+  ]
+  

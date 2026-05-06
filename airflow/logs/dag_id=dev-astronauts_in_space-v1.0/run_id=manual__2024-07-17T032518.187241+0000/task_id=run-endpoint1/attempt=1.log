@@ -1,0 +1,21 @@
+[2024-07-17T04:25:31.837+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-07-17T04:25:31.907+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dev-astronauts_in_space-v1.0.run-endpoint1 manual__2024-07-17T03:25:18.187241+00:00 [queued]>
+[2024-07-17T04:25:31.959+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dev-astronauts_in_space-v1.0.run-endpoint1 manual__2024-07-17T03:25:18.187241+00:00 [queued]>
+[2024-07-17T04:25:31.961+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2024-07-17T04:25:32.275+0100] {taskinstance.py:2330} INFO - Executing <Task(SimpleHttpOperator): run-endpoint1> on 2024-07-17 03:25:18.187241+00:00
+[2024-07-17T04:25:32.281+0100] {standard_task_runner.py:63} INFO - Started process 28223 to run task
+[2024-07-17T04:25:32.295+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dev-astronauts_in_space-v1.0', 'run-endpoint1', 'manual__2024-07-17T03:25:18.187241+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/tmp/tmp608wrakw']
+[2024-07-17T04:25:32.302+0100] {standard_task_runner.py:91} INFO - Job 13: Subtask run-endpoint1
+[2024-07-17T04:25:32.716+0100] {task_command.py:426} INFO - Running <TaskInstance: dev-astronauts_in_space-v1.0.run-endpoint1 manual__2024-07-17T03:25:18.187241+00:00 [running]> on host DESKTOP-245UCLR.
+[2024-07-17T04:25:33.596+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Victor Ezeh' AIRFLOW_CTX_DAG_ID='dev-astronauts_in_space-v1.0' AIRFLOW_CTX_TASK_ID='run-endpoint1' AIRFLOW_CTX_EXECUTION_DATE='2024-07-17T03:25:18.187241+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-17T03:25:18.187241+00:00'
+[2024-07-17T04:25:33.602+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2024-07-17T04:25:33.679+0100] {http.py:173} INFO - Calling HTTP method
+[2024-07-17T04:25:33.740+0100] {base.py:84} INFO - Using connection ID 'http_default' for task execution.
+[2024-07-17T04:25:33.870+0100] {base.py:84} INFO - Using connection ID 'http_default' for task execution.
+[2024-07-17T04:25:37.592+0100] {http.py:222} INFO - {"people": [{"craft": "ISS", "name": "Oleg Kononenko"}, {"craft": "ISS", "name": "Nikolai Chub"}, {"craft": "ISS", "name": "Tracy Caldwell Dyson"}, {"craft": "ISS", "name": "Matthew Dominick"}, {"craft": "ISS", "name": "Michael Barratt"}, {"craft": "ISS", "name": "Jeanette Epps"}, {"craft": "ISS", "name": "Alexander Grebenkin"}, {"craft": "ISS", "name": "Butch Wilmore"}, {"craft": "ISS", "name": "Sunita Williams"}, {"craft": "Tiangong", "name": "Li Guangsu"}, {"craft": "Tiangong", "name": "Li Cong"}, {"craft": "Tiangong", "name": "Ye Guangfu"}], "number": 12, "message": "success"}
+[2024-07-17T04:25:37.594+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-07-17T04:25:37.892+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dev-astronauts_in_space-v1.0, task_id=run-endpoint1, run_id=manual__2024-07-17T03:25:18.187241+00:00, execution_date=20240717T032518, start_date=20240717T032531, end_date=20240717T032537
+[2024-07-17T04:25:38.148+0100] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-07-17T04:25:38.217+0100] {logging_mixin.py:188} WARNING - /home/victor/airflow_env/lib/python3.10/site-packages/airflow/models/baseoperator.py:1297 AirflowProviderDeprecationWarning: Call to deprecated class SimpleHttpOperator. (Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.)
+[2024-07-17T04:25:38.279+0100] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-17T04:25:38.284+0100] {local_task_job_runner.py:222} INFO - ::endgroup::
