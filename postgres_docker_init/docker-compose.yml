@@ -1,14 +1,13 @@
 version: '3'
-
 services:
   postgres:
     image: postgres:latest
     environment:
-      POSTGRES_USER: ink_store_user
-      POSTGRES_PASSWORD: thelaw0000
-      POSTGRES_DB: ink_store_db
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
     ports:
-      - "5434:5432"
+      - "${POSTGRES_PORT}:5432"
     volumes:
       - ./pg_data:/var/lib/postgresql/data
       - ./data:/data

@@ -144,11 +144,11 @@ In this project, I demonstrated my ability to set up a Postgres server leveragin
 Make sure to set up the following environment variables in a `.env` file at the root of your project:
 
 ```
-POSTGRES_USER=ink_store_user
-POSTGRES_PASSWORD=thelaw0000
-POSTGRES_DB=ink_store_db
-POSTGRES_PORT=5434
-POSTGRES_HOST=localhost
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+POSTGRES_PORT=
+POSTGRES_HOST=
 ```
 
 This configuration will be used by the `db_manager.py` script to connect to the Postgres database.
